@@ -11,11 +11,17 @@ public class CreateFileV1 {
 
     public static void main(String[] args) throws IOException {
         FileOutputStream fops = new FileOutputStream(FILE_NAME);
+        long startTime = System.currentTimeMillis();
 
         for (int i = 0; i < FILE_SIZE; i++){
             fops.write(1);
         }
         fops.close();
+
+        long endTime = System.currentTimeMillis();
+        System.out.println("File created : "+ FILE_NAME);
+        System.out.println("File size : "+ FILE_SIZE / 1024 / 1024 + "MB");
+        System.out.println("time taken :"+(endTime - startTime) + "ms");
 
     }
 }
