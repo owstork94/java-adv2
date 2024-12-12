@@ -20,7 +20,7 @@ public class ReadFileV3 {
 
         while ((data = bis.read()) != -1){
             fileSize ++;
-        }
+        } //sss
         bis.close();
 
         long endTime = System.currentTimeMillis();
