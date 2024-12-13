@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4823772-18ab-4aa2-944c-09fcd0e3a044" name="Changes" comment="241212_1">
-      <change beforePath="$PROJECT_DIR$/src/io/buffered/ReadFileV3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/buffered/ReadFileV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/member/FileMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/member/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/member/MemberConsoleMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/member/MemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/member/impl/MemoryMemberRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/text/ReaderWriterMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/text/ReaderWriterMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/text/ReaderWriterMainV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/io/text/ReaderWriterMainV4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp/buffered.dat" beforeDir="false" afterPath="$PROJECT_DIR$/temp/buffered.dat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +33,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;owstork94&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d584ea03-ec0b-48b2-90e9-8dff0a4f1598" />
+        <option name="url" value="https://github.com/owstork94/java-adv2.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -35,6 +60,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
@@ -42,6 +68,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pathVariables",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -50,59 +77,7 @@
       <recent name="io.buffered" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadFileV3">
-    <configuration name="CreateFileV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.buffered.CreateFileV1" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.buffered.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CreateFileV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.buffered.CreateFileV2" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.buffered.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadFileV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.buffered.ReadFileV1" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.buffered.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReadFileV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.buffered.ReadFileV2" />
-      <module name="java-adv2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.buffered.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ReaderWriterMainV4">
     <configuration name="ReadFileV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="io.buffered.ReadFileV3" />
       <module name="java-adv2" />
@@ -116,13 +91,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ReaderWriterMainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.text.ReaderWriterMainV1" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.text.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReaderWriterMainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.text.ReaderWriterMainV2" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.text.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReaderWriterMainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.text.ReaderWriterMainV3" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.text.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReaderWriterMainV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.text.ReaderWriterMainV4" />
+      <module name="java-adv2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.text.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReaderWriterMainV4" />
+        <item itemvalue="Application.ReaderWriterMainV3" />
+        <item itemvalue="Application.ReaderWriterMainV2" />
+        <item itemvalue="Application.ReaderWriterMainV1" />
         <item itemvalue="Application.ReadFileV3" />
-        <item itemvalue="Application.ReadFileV2" />
-        <item itemvalue="Application.CreateFileV2" />
-        <item itemvalue="Application.ReadFileV1" />
-        <item itemvalue="Application.CreateFileV1" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +164,9 @@
       <workItem from="1732262874512" duration="9266000" />
       <workItem from="1732584539960" duration="18048000" />
       <workItem from="1733881831490" duration="595000" />
-      <workItem from="1733985886026" duration="359000" />
+      <workItem from="1733985886026" duration="4602000" />
+      <workItem from="1733992894819" duration="157000" />
+      <workItem from="1733993118553" duration="10745000" />
     </task>
     <task id="LOCAL-00001" summary="241125">
       <option name="closed" value="true" />
@@ -163,7 +192,23 @@
       <option name="project" value="LOCAL" />
       <updated>1733985968897</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="241212_1">
+      <option name="closed" value="true" />
+      <created>1733986259690</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1733986259690</updated>
+    </task>
+    <task id="LOCAL-00005" summary="241212_1">
+      <option name="closed" value="true" />
+      <created>1733986323594</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733986323594</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
