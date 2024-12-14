@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a4823772-18ab-4aa2-944c-09fcd0e3a044" name="Changes" comment="241212_1">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/member/FileMemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/member/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/member/MemberConsoleMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/member/MemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/member/impl/MemoryMemberRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/text/ReaderWriterMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/text/ReaderWriterMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/text/ReaderWriterMainV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/text/ReaderWriterMainV4.java" afterDir="false" />
+    <list default="true" id="a4823772-18ab-4aa2-944c-09fcd0e3a044" name="Changes" comment="241213_1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp/buffered.dat" beforeDir="false" afterPath="$PROJECT_DIR$/temp/buffered.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/member/FileMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/member/FileMemberRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +156,7 @@
       <workItem from="1733881831490" duration="595000" />
       <workItem from="1733985886026" duration="4602000" />
       <workItem from="1733992894819" duration="157000" />
-      <workItem from="1733993118553" duration="10745000" />
+      <workItem from="1733993118553" duration="15437000" />
     </task>
     <task id="LOCAL-00001" summary="241125">
       <option name="closed" value="true" />
@@ -208,16 +198,36 @@
       <option name="project" value="LOCAL" />
       <updated>1733986323594</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="241213_1">
+      <option name="closed" value="true" />
+      <created>1734067542371</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734067542371</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="241125" />
     <MESSAGE value="241125_2" />
     <MESSAGE value="241212_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="241212_1" />
+    <MESSAGE value="241213_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="241213_1" />
   </component>
 </project>
