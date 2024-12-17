@@ -5,8 +5,8 @@ public class Member {
     private String name;
     private int age;
 
-    public Member() {
-    }
+//    public Member(String memberDatum, String datum, String s) {
+//    }
 
     public Member(String id, String name, int age) {
         this.id = id;

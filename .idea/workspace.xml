@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a4823772-18ab-4aa2-944c-09fcd0e3a044" name="Changes" comment="241213_1">
+      <change afterPath="$PROJECT_DIR$/src/io/member/impl/DataMemberRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/io/member/FileMemberRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/member/FileMemberRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/member/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/member/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/io/member/MemberConsoleMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/io/member/MemberConsoleMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,34 +49,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pathVariables",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pathVariables&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="io.buffered" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReaderWriterMainV4">
-    <configuration name="ReadFileV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="io.buffered.ReadFileV3" />
+  <component name="RunManager" selected="Application.MemberConsoleMain">
+    <configuration name="MemberConsoleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="io.member.MemberConsoleMain" />
       <module name="java-adv2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.buffered.*" />
+          <option name="PATTERN" value="io.member.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MemberConsoleMain" />
         <item itemvalue="Application.ReaderWriterMainV4" />
         <item itemvalue="Application.ReaderWriterMainV3" />
         <item itemvalue="Application.ReaderWriterMainV2" />
         <item itemvalue="Application.ReaderWriterMainV1" />
-        <item itemvalue="Application.ReadFileV3" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +160,7 @@
       <workItem from="1733985886026" duration="4602000" />
       <workItem from="1733992894819" duration="157000" />
       <workItem from="1733993118553" duration="15437000" />
+      <workItem from="1734149245033" duration="10319000" />
     </task>
     <task id="LOCAL-00001" summary="241125">
       <option name="closed" value="true" />
@@ -206,7 +210,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734067542371</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="241213_1">
+      <option name="closed" value="true" />
+      <created>1734149266738</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1734149266738</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
